@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Camada_2" data-name="Camada 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 93.48 240.74">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#Gradiente_sem_nome_253);
+      }
+
+      .cls-2 {
+        fill: url(#Gradiente_sem_nome_207);
+      }
+    </style>
+    <linearGradient id="Gradiente_sem_nome_207" data-name="Gradiente sem nome 207" x1="66.25" y1="129.66" x2="4.88" y2="23.37" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#5a0300"/>
+      <stop offset=".03" stop-color="#610200"/>
+      <stop offset=".25" stop-color="#8a0100"/>
+      <stop offset=".45" stop-color="#aa0100"/>
+      <stop offset=".65" stop-color="#c10000"/>
+      <stop offset=".84" stop-color="#cf0000"/>
+      <stop offset="1" stop-color="#d40000"/>
+    </linearGradient>
+    <linearGradient id="Gradiente_sem_nome_253" data-name="Gradiente sem nome 253" x1="84.18" y1="103.37" x2="13.97" y2="224.98" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#00006f"/>
+      <stop offset=".12" stop-color="#00048c"/>
+      <stop offset=".31" stop-color="#000bb5"/>
+      <stop offset=".5" stop-color="#0010d5"/>
+      <stop offset=".68" stop-color="#0014ec"/>
+      <stop offset=".85" stop-color="#0016fa"/>
+      <stop offset="1" stop-color="#0017ff"/>
+    </linearGradient>
+  </defs>
+  <g id="Camada_1-2" data-name="Camada 1">
+    <path class="cls-2" d="M48.87,137.77H13.36c-4.12,0-7.94-2.01-10.49-5.51-2.85-3.93-3.64-9.1-2.1-13.82L36.28,9.65C38.81,1.9,45.39-.7,50.78.16c5.51.88,11.44,5.74,11.44,14.34v108.79c0,7.99-5.99,14.49-13.35,14.49ZM48.76,6.35c-2.44,0-5.16,1.36-6.43,5.27L6.82,120.42c-.91,2.79-.46,5.82,1.2,8.11.78,1.08,2.52,2.89,5.34,2.89h35.51c3.86,0,7-3.65,7-8.13V14.49c0-4.9-3.05-7.58-6.08-8.06-.33-.05-.68-.08-1.03-.08Z"/>
+    <path class="cls-1" d="M90.61,108.48c-2.54-3.5-6.36-5.51-10.49-5.51h-17.9v6.35h17.9c2.82,0,4.56,1.81,5.34,2.89,1.66,2.29,2.11,5.32,1.2,8.11l-35.51,108.79c-1.46,4.47-4.82,5.61-7.46,5.19-3.03-.48-6.08-3.16-6.08-8.06v-108.79c0-4.48,3.14-8.13,7-8.13h11.25v-6.35h-11.25c-7.36,0-13.35,6.5-13.35,14.49v108.79c0,8.6,5.93,13.46,11.44,14.34.65.1,1.32.16,1.99.16,4.93,0,10.29-2.83,12.51-9.65l35.51-108.79c1.54-4.72.76-9.88-2.1-13.82Z"/>
+  </g>
+</svg>
