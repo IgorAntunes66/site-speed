@@ -1,23 +1,24 @@
 import {
   NavigationMenu,
-  NavigationMenuContent,
-  NavigationMenuIndicator,
+  //NavigationMenuContent,
+  //NavigationMenuIndicator,
   NavigationMenuItem,
   NavigationMenuLink,
   NavigationMenuList,
-  NavigationMenuTrigger,
-  NavigationMenuViewport,
+  //NavigationMenuTrigger,
+  //NavigationMenuViewport,
 } from "@/components/ui/navigation-menu"
 
 import {Button} from "@/components/ui/button"
+import Image from "next/image"
 
 export default function Navbar() {
-  const navLinkStyle = "transition-transform duration-200 hover:scale-110 text-gray-300 hover:font-medium hover:text-white inline-block"
+  const navLinkStyle = "transition-transform duration-200 text-[14px] hover:scale-115 text-gray-300 hover:font-medium hover:text-white inline-block"
   return (
     <div className="bg-[#02022E]">
-      <header className="flex justify-between items-center px-16 py-6">
-        <div>
-          <img src="/logo_completa_branca.svg" alt="Logo" className="w-56 h-auto" />
+      <header className="flex justify-around items-center px-56 py-2">
+        <div className="">
+          <Image src="/logo_completa_branca.svg" alt="Logo" className="w-58 h-auto " width={0} height={0}/>
         </div>
         <NavigationMenu>
           <NavigationMenuList className="gap-x-16">
@@ -31,7 +32,7 @@ export default function Navbar() {
               <NavigationMenuLink href="#aplicativos" className={navLinkStyle}>APLICATIVOS</NavigationMenuLink>
             </NavigationMenuItem>
             <NavigationMenuItem>
-              <NavigationMenuLink href="#servicos" className={navLinkStyle}>SERVICOS</NavigationMenuLink>
+              <NavigationMenuLink href="#servicos" className={navLinkStyle}>SERVIÇOS</NavigationMenuLink>
             </NavigationMenuItem>
             <NavigationMenuItem>
               <NavigationMenuLink href="#clientes" className={navLinkStyle}>CLIENTES</NavigationMenuLink>
@@ -42,7 +43,7 @@ export default function Navbar() {
           </NavigationMenuList>
         </NavigationMenu>
         <div>
-          <Button className="bg-white text-gray-900 shadow-2xl hover:bg-gray-300">Login</Button>
+          <Button className="transition-transform duration-200 hover:scale-105 bg-white text-gray-900 shadow-2xl hover:bg-gray-100">Login</Button>
         </div>
       </header>
     </div>
