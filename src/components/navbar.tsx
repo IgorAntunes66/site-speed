@@ -13,37 +13,37 @@ import { Button } from "@/components/ui/button";
 import { cva } from "class-variance-authority";
 import Image from "next/image";
 
-const headerStyles = cva("flex items-center justify-around px-56 py-2");
+const headerStyles = cva("flex items-center justify-between px-22 py-2");
 const navLinkStyle = cva(
-  "transition-transform duration-200 text-[14px] font-medium hover:scale-115 text-gray-300 hover:font-bold hover:text-white inline-block",
+  "transition-transform duration-200 text-[18px] font-medium hover:scale-115 text-gray-300 hover:font-bold hover:text-white inline-block",
 );
 const buttonStyle = cva(
-  "bg-white text-gray-900 shadow-2xl transition-transform duration-200 hover:scale-105 hover:bg-gray-100",
+  "bg-[#02022E] border-2 border-white text-gray-200 shadow-2xl transition-transform duration-200 hover:scale-105 hover:bg-gray-100 hover:text-black",
 );
 
 export default function Navbar() {
   return (
-    <div className="bg-[#02022E]">
+    <div className="absolute left-0 right-0 top-0">
       <header className={headerStyles()}>
-        <div className="">
+        <div>
           <Image
             src="/logo_completa_branca.svg"
             alt="Logo"
-            className="w-58 h-auto"
+            className="w-58 h-auto p-4"
             width={500}
             height={500}
           />
         </div>
         <NavigationMenu>
-          <NavigationMenuList className="gap-x-16">
+          <NavigationMenuList className="gap-x-8">
             <NavigationMenuItem>
               <NavigationMenuLink href="/" className={navLinkStyle()}>
-                INÍCIO
+                Início
               </NavigationMenuLink>
             </NavigationMenuItem>
             <NavigationMenuItem>
               <NavigationMenuLink href="#sobre" className={navLinkStyle()}>
-                SOBRE
+                Sobre
               </NavigationMenuLink>
             </NavigationMenuItem>
             <NavigationMenuItem>
@@ -51,22 +51,22 @@ export default function Navbar() {
                 href="#aplicativos"
                 className={navLinkStyle()}
               >
-                APLICATIVOS
+                Aplicativos
               </NavigationMenuLink>
             </NavigationMenuItem>
             <NavigationMenuItem>
               <NavigationMenuLink href="#servicos" className={navLinkStyle()}>
-                SERVIÇOS
+                Serviços
               </NavigationMenuLink>
             </NavigationMenuItem>
             <NavigationMenuItem>
               <NavigationMenuLink href="#clientes" className={navLinkStyle()}>
-                CLIENTES
+                Clientes
               </NavigationMenuLink>
             </NavigationMenuItem>
             <NavigationMenuItem>
               <NavigationMenuLink href="#contato" className={navLinkStyle()}>
-                CONTATO
+                Contato
               </NavigationMenuLink>
             </NavigationMenuItem>
           </NavigationMenuList>
