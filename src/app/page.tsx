@@ -1,12 +1,14 @@
 import { Button } from "@/components/ui/button";
 import Navbar from "@/components/navbar";
+import HeroBubbles from "@/components/heroBubbles"
 
 export default function Home() {
   return (
     <div>
-      <section className="relative flex h-[600px] items-center justify-center bg-gradient-to-r from-[#020246] to-[#080868]">
+      <section className="relative overflow-hidden flex h-[600px] items-center justify-center bg-gradient-to-r from-[#020246] to-[#080868]">
         <Navbar />
-        <div className="flex flex-wrap justify-center gap-y-6 max-w-5xl">
+        <HeroBubbles/>
+        <div className="flex flex-wrap justify-center gap-y-6 max-w-4xl relative z-10">
           <h1 className="text-center font-serif text-6xl  font-bold text-white">
             O SISTEMA DE GESTÃO QUE IMPULSIONA O SEU NEGÓCIO
           </h1>
@@ -16,7 +18,7 @@ export default function Home() {
             gestão financeira e emissão de notas fiscais com TEF, otimizando seu
             tempo e seus resultados.
           </p>
-          <Button className="transition-transform duration-200 bg-white text-[#080868] h-15 w-40 rounded-full hover:bg-[#02022E] hover:text-white hover:border-2 hover:scale-105">Quero conhecer</Button>
+          <Button className="transition-transform duration-200 text-white bg-gradient-to-r from-[#020246] to-[#080868] border-2 h-15 w-40 rounded-full shadow-md shadow-indigo-500/30 hover:scale-102">Quero conhecer</Button>
         </div>
       </section>
     </div>
