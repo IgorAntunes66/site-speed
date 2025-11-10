@@ -18,7 +18,7 @@ export default function Home() {
             gestão financeira e emissão de notas fiscais com TEF, otimizando seu
             tempo e seus resultados.
           </p>
-          <Button className="transition-transform duration-200 text-white bg-gradient-to-r from-[#020246] to-[#080868] border-2 h-15 w-40 rounded-full shadow-md shadow-indigo-500/30 hover:scale-102">Quero conhecer</Button>
+          <Button className="transition-transform duration-200 text-white bg-[] border-2 h-15 w-40 rounded-full shadow-md shadow-indigo-500/30 hover:scale-102 hover:bg-white hover:text-[#020246]">Quero conhecer</Button>
         </div>
       </section>
     </div>

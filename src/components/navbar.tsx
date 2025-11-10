@@ -18,12 +18,12 @@ const navLinkStyle = cva(
   "transition-transform duration-200 text-[18px] font-medium hover:scale-115 text-gray-300 hover:font-bold hover:text-white inline-block",
 );
 const buttonStyle = cva(
-  "bg-[#080868] border-2 rounded-full border-white text-gray-200 shadow-2xl transition-transform duration-200 hover:scale-105 hover:bg-gray-100 hover:text-black",
+  "bg-[] border-2 rounded-full border-white text-gray-200 shadow-2xl transition-transform duration-200 hover:scale-105 hover:bg-gray-100 hover:text-[#020246]",
 );
 
 export default function Navbar() {
   return (
-    <div className="absolute left-0 right-0 top-0">
+    <div className="absolute left-0 right-0 top-0 z-9">
       <header className={headerStyles()}>
         <div>
           <Image
