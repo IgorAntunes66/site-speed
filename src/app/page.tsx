@@ -21,6 +21,9 @@ export default function Home() {
           <Button className="transition-transform duration-200 text-white bg-transparent border-2 h-15 w-40 rounded-full shadow-md shadow-indigo-500/30 hover:scale-102 hover:bg-white hover:text-[#020246]">Quero conhecer</Button>
         </div>
       </section>
+      <section id="sobre">
+
+      </section>
     </div>
   );
 }

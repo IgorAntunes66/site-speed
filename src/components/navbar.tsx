@@ -12,6 +12,14 @@ import {
 import { Button } from "@/components/ui/button";
 import { cva } from "class-variance-authority";
 import Image from "next/image";
+import { 
+  Sheet,
+  SheetTrigger,
+  SheetContent
+} from "./ui/sheet";
+
+import { Menu } from 'lucide-react';
+import MobileNavLinks from "./mobileNavLinks";
 
 const headerStyles = cva("flex items-center justify-between px-22 py-2");
 const navLinkStyle = cva(
@@ -25,6 +33,16 @@ export default function Navbar() {
   return (
     <div className="absolute left-0 right-0 top-0 z-9">
       <header className={headerStyles()}>
+         <div className="md:hidden">
+          <Sheet>
+            <SheetTrigger>
+              <Menu className="text-white"/>
+            </SheetTrigger>
+            <SheetContent side={"left"}>
+              <MobileNavLinks/>
+            </SheetContent>
+          </Sheet>
+        </div>
         <div>
           <Image
             src="/logo_completa_branca.svg"
