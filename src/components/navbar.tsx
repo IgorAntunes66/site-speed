@@ -26,7 +26,7 @@ const navLinkStyle = cva(
   "transition-transform duration-200 text-[18px] font-medium hover:scale-115 text-gray-300 hover:font-bold hover:text-white inline-block",
 );
 const buttonStyle = cva(
-  "bg-transparent border-2 rounded-full border-white text-gray-200 shadow-2xl transition-transform duration-200 hover:scale-105 hover:bg-gray-100 hover:text-[#020246]",
+  "bg-transparent border-2 rounded-full border-white text-gray-200 shadow-2xl transition-transform duration-200 hover:scale-105 hover:bg-gray-100 hover:text-[#000000]",
 );
 
 export default function Navbar() {

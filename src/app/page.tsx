@@ -10,7 +10,7 @@ export default function Home() {
         <Navbar />
         <HeroBubbles/>
         <div className="flex flex-wrap justify-center gap-y-6 max-w-4xl px-8 md:px-0 relative z-10">
-          <h1 className="text-center font-serif text-3xl md:text-6xl font-bold text-white">
+          <h1 className="text-center font-poppins text-3xl md:text-6xl font-bold text-white">
             O SISTEMA DE GESTÃO QUE IMPULSIONA O SEU NEGÓCIO
           </h1>
           <p className="text-white text-center">
@@ -19,7 +19,7 @@ export default function Home() {
             gestão financeira e emissão de notas fiscais com TEF, otimizando seu
             tempo e seus resultados.
           </p>
-          <Button className="transition-transform duration-200 text-white bg-transparent border-2 h-15 w-40 rounded-full shadow-md shadow-indigo-500/30 hover:scale-102 hover:bg-white hover:text-[#020246]">Quero conhecer</Button>
+          <Button className="transition-transform duration-200 text-white bg-transparent border-2 h-15 w-40 rounded-full shadow-md shadow-amber-50/30 hover:scale-102 hover:bg-white hover:text-[#000000]">Quero conhecer</Button>
         </div>
       </section>
       <section id="sobre" className="relative h-auto md:h-[600px] pl-6 pr-6 mt-[-70px] z-50">
