@@ -6,7 +6,7 @@ import Waves from "@/components/waves";
 export default function Home() {
   return (
     <div>
-      <section className="relative overflow-hidden flex h-auto md:h-[600px] pt-28 pb-12 md:pt-0 md:pb-0 md:items-center md:justify-center bg-radial from-[#272727] to-[#060606]">
+      <section className="relative overflow-hidden flex h-auto md:h-[600px] pt-28 pb-20 md:pt-0 md:pb-0 md:items-center md:justify-center bg-radial from-[#272727] to-[#060606]">
         <Navbar />
         <HeroBubbles/>
         <div className="flex flex-wrap justify-center gap-y-6 max-w-4xl px-8 md:px-0 relative z-10">
