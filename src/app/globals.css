@@ -43,6 +43,7 @@
   --radius-lg: var(--radius);
   --radius-xl: calc(var(--radius) + 4px);
   --font-poppins: var(--font-poppins);
+  --font-chakra-petch: var(--font-chakra-petch);
 }
 
 :root {
@@ -120,6 +121,7 @@
   * {
     @apply border-border outline-ring/50;
   }
+
   body {
     @apply bg-background text-foreground;
   }
